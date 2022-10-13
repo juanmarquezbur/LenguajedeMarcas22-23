@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TORNEO>
+<Torneo>
+    <Datos>
+        <Nombre>Torneo Wimbledon</Nombre>
+        <Fecha_de_inicio>14/10/2022 - 9:30</Fecha_de_inicio>
+        <Fecha_de_finalizacion> 21/10/2022 - 22:00</Fecha_de_finalizacion>
+    </Datos>
+    <Partidos>
+        <Partido1>
+            <Fecha></Fecha>
+            <Jugadores>
+                <Jugador1></Jugador1>
+                <Juagdor2></Juagdor2>
+            </Jugadores>
+            <Resultado>
+                <Set1> </Set1>
+                <Set2> </Set2>
+                <Set3> </Set3>
+            </Resultado>
+        </Partido1>
+
+        <Partido2>
+            <Fecha></Fecha>
+            <Jugadores>
+                <Jugador1></Jugador1>
+                <Juagdor2></Juagdor2>
+            </Jugadores>
+            <Resultado>
+                <Set1> </Set1>
+                <Set2> </Set2>
+                <Set3> </Set3>
+            </Resultado>
+        </Partido2>
+
+        <Partido3>
+            <Fecha></Fecha>
+            <Jugadores>
+                <Jugador1></Jugador1>
+                <Juagdor2></Juagdor2>
+            </Jugadores>
+            <Resultado>
+                <Set1> </Set1>
+                <Set2> </Set2>
+                <Set3> </Set3>
+            </Resultado>
+        </Partido3>
+
+        <Partido4>
+            <Fecha></Fecha>
+            <Jugadores>
+                <Jugador1></Jugador1>
+                <Juagdor2></Juagdor2>
+            </Jugadores>
+            <Resultado>
+                <Set1> </Set1>
+                <Set2> </Set2>
+                <Set3> </Set3>
+            </Resultado>
+        </Partido4>
+
+        <Partido5>
+            <Fecha></Fecha>
+            <Jugadores>
+                <Jugador1></Jugador1>
+                <Juagdor2></Juagdor2>
+            </Jugadores>
+            <Resultado>
+                <Set1> </Set1>
+                <Set2> </Set2>
+                <Set3> </Set3>
+            </Resultado>
+        </Partido5>
+
+        <Partido6>
+            <Fecha></Fecha>
+            <Jugadores>
+                <Jugador1></Jugador1>
+                <Juagdor2></Juagdor2>
+            </Jugadores>
+            <Resultado>
+                <Set1> </Set1>
+                <Set2> </Set2>
+                <Set3> </Set3>
+            </Resultado>
+        </Partido6>
+
+        <Partido7>
+            <Fecha></Fecha>
+            <Jugadores>
+                <Jugador1></Jugador1>
+                <Juagdor2></Juagdor2>
+            </Jugadores>
+            <Resultado>
+                <Set1> </Set1>
+                <Set2> </Set2>
+                <Set3> </Set3>
+            </Resultado>
+        </Partido7>
+
+        <Partido8>
+            <Fecha></Fecha>
+            <Jugadores>
+                <Jugador1></Jugador1>
+                <Juagdor2></Juagdor2>
+            </Jugadores>
+            <Resultado>
+                <Set1> </Set1>
+                <Set2> </Set2>
+                <Set3> </Set3>
+            </Resultado>
+        </Partido8>
+
+        <Partido9>
+            <Fecha></Fecha>
+            <Jugadores>
+                <Jugador1></Jugador1>
+                <Juagdor2></Juagdor2>
+            </Jugadores>
+            <Resultado>
+                <Set1> </Set1>
+                <Set2> </Set2>
+                <Set3> </Set3>
+            </Resultado>
+        </Partido9>
+
+        <Partido10>
+            <Fecha></Fecha>
+            <Jugadores>
+                <Jugador1></Jugador1>
+                <Juagdor2></Juagdor2>
+            </Jugadores>
+            <Resultado>
+                <Set1> </Set1>
+                <Set2> </Set2>
+                <Set3> </Set3>
+            </Resultado>
+        </Partido10>
+        
+    </Partidos>
+</Torneo>
