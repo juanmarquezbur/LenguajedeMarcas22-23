@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:ex="http://www.w3.org/2002/ws/databinding/examples/6/09/"
+    xmlns:p="http://www.w3.org/2002/ws/databinding/patterns/6/09/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <env:Header/>
+    <env:Body>
+        <ex:echoAnyTypeElement>
+            <ex:anyTypeElement
+                xmlns:soap11enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl11="http://schemas.xmlsoap.org/wsdl/">
+                <foo>
+                    <bar>cheese</bar>
+                </foo>
+            </ex:anyTypeElement>
+        </ex:echoAnyTypeElement>
+    </env:Body>
+</env:Envelope>

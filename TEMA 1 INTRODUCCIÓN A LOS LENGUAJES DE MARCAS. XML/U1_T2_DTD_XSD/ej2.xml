@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro catalogo="Ficcion" carnet="A1111">
+    <titulo>Aventuras llupi</titulo>
+    <seccion>22</seccion>
+    <subSeccion>B4</subSeccion>
+    <contenido>
+        <capitulo materia="Plastico" carnet="B2222">
+            <tema>Amor</tema>
+        </capitulo>
+    </contenido>
+    <separacion>4 partes</separacion>
+    <copyright>No</copyright>
+</libro>
