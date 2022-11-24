@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <Form>
+        <label for="nombre" style="font-weight:bold;"> Nombre </label>
+        <input type="text" name="nombre" id="id_nombre" placeholder="Introduzca aquí su nombre" size="30" required> <span style="color: red">*</span>
+        <input type="button" value="Aceptar">
+        <input type="submit" name="Enviar" id="bt_enviar" disabled>
+        <br>
+        <br>
+        <label for="s_opciones"> Seleccione su fruta favorita</label>
+        <br>
+        <select name="opciones" id="id_opciones">
+            <option value="Platano">Platano</option>
+            <option value="Pera">Pera</option>
+            <option value="Manzana" selected>Manzana</option>
+            <option value="Manzana">Sandia</option>
+            <option value="Manzana">Melon</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Formulario de consulta</legend>
+            <table>
+                <tr>
+                    <td><label for="t_consulta">Escriba aquí su tarea</label></td>
+                    <td><textarea name="consulta" id="t_consulta" cols="30" rows="10" placeholder="Introduzca aquí su nombre" readonly></textarea></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+    
+            <label for="t_consulta">Escriba aquí su tarea</label> 
+            <br>
+            <textarea name="consulta" id="t_consulta" cols="30" rows="10" placeholder="Introduzca aquí su nombre"></textarea>
+        </fieldset>
+            <br>
+            <br>
+            <input type="button" value="Aceptar">
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+
+            <br>
+            <br>
+            <input type="checkbox" name="coche1" id="coches" value="Renault">
+            <label for="coches1">Renault</label>
+            <input type="checkbox" name="coche2" id="coches">
+            <label for="coches1">Mercedes</label>
+            <input type="checkbox" name="coche3" id="coches">
+            <label for="coches1">Ford</label>
+
+            <br>
+            <br>
+            <input type="radio" name="equipo" id="equipo1">
+            <label for="equipo1">España</label>
+            <input type="radio" name="equipo" id="equipo2">
+            <label for="equipo2">Japon</label>
+            <input type="radio" name="equipo" id="equipo3">
+            <label for="equipo3">Costa Rica</label>
+            <input type="radio" name="equipo" id="equipo3">
+            <label for="equipo4">Alemania</label>
+
+            <br>
+            <br>
+            <label for="browser">Choose your browse from the list</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="Browsers"></datalist>
+
+    </Form>
+</body>
+</html>
