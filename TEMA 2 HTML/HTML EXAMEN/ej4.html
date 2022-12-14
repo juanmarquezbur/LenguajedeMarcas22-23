@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Reservation request</title>
+    </head>
+    <body>
+        <fieldset >
+    
+        <h1>Reservation Request</h1>
+        <form action="response.html" method="get"
+            name="reservation_form" id="reservation_form">
+            <fieldset>
+                <legend style="color: blue">General Information</legend>
+                <label for="arrival_date">Arrival date:</label>
+                <input type="text" name="arrival_date" id="arrival_date"
+                    autofocus
+                    value="12/39/2016">
+                <span style="color: red">Arrival date is inavlid.</span><br>
+                <label for="nights">Nights:</label>
+                <input type="text" name="nights" id="nights"
+                    value="three">
+                <span style="color: red">Nights must be a number.</span><br>
+                <label>Adults:</label>
+                <select name="adults" id="adults">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><br>
+                <label>Children:</label>
+                <select name="children" id="children">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><br>
+            </fieldset>
+            <fieldset>
+                <legend style="color: blue">Preferences</legend>
+                <label>Room type:</label>
+                <input type="radio" name="room" id="standard" class="left"
+                    checked>Standard&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="room" id="business" class="left">Business&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="room" id="suite" class="left last">Suite<br>
+                <label>Bed type:</label>
+                <input type="radio" name="bed" id="king" class="left" checked>King&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="bed" id="double" class="left last">Double
+                Double<br>
+                <input type="checkbox" name="smoking" id="smoking">Smoking<br>
+            </fieldset>
+            <fieldset>
+                <legend style="color: blue">Contact Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <span style="color: red">Name is required.</span><br>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email"
+                    value="graceyahoo.com">
+                <span style="color: red">Email address is invalid.</span><br>
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" id="phone"
+                    value="999-999-9999">
+                <span style="color: red">Phone number is invalid.</span><br>
+            </fieldset>
+            <br>
+            <input type="submit" id="submit" value="Submit Request">
+            <input type="reset" id="Clear" value="Clear">
+
+        </form>
+    </fieldset>
+    </body>
+</html>
